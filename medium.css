@@ -1,0 +1,76 @@
+body{
+   
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0px 60px 10px 60px;
+    min-width: 50px;
+    margin: 60px;
+    margin-top: 0px;
+
+}
+
+.header{
+   display: flex;
+    justify-content: space-between;
+   align-items: baseline;
+   gap: 590PX;
+   margin: auto;
+   
+   }
+  
+   
+
+.logo{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.icon{
+    gap: 18px;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    gap: 10px;
+    margin-top: 20px;
+  
+}
+
+.div1,.div2, .div3{
+border: 2px solid black; 
+
+ 
+}
+.f-1{
+   flex: 2;
+}
+.f-2{
+    flex: 1 30px;
+}
+.f-3{
+    flex: 1 100px;
+}
+
+.big-scritta{
+    display: flex;
+    align-items: baseline;
+    gap: 7PX;
+}
+   
+.last{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+.final1{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.sopra{
+    display: flex;
+    align-items: baseline;
+}
