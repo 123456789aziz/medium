@@ -6,6 +6,7 @@ body{
     min-width: 50px;
     margin: 60px;
     margin-top: 0px;
+    background-color: #f8cc1b;
     
 
 }
@@ -16,13 +17,18 @@ body{
    align-items: baseline;
    margin: auto;
    flex-wrap: wrap;
+   background-color: #f37324;
+   box-shadow: 3PX 3PX 3PX;
+    border-radius: 90PX;
+    
+   
    }
   
    
 
 .logo{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -35,6 +41,8 @@ body{
     gap: 10px;
     margin-top: 20px;
     flex-wrap: wrap;
+    padding: 10PX;
+    MARGIN: 10PX;
   
 }
 
@@ -65,7 +73,7 @@ body{
 }
 .sopra{
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 img{
     width: 200PX;
@@ -76,7 +84,7 @@ img{
     align-items: end;
     gap: 10PX;
     PADDING-BOTTOM: 20PX;
-    
+    margin: 0 0 0 10PX
 }
 .center{
     display: flex;
@@ -85,10 +93,37 @@ img{
 }
 .hea{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 5PX;
     
 }
 .div2{
     text-align: center;
+    background-color: #eaeaea;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px;
+}
+.div1{
+    background-color: #03658cc4;
+    border-radius: 10px;
+    box-shadow: -2px -2px 2px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 2px ;
+}
+
+.chat{
+    display: flex;
+    justify-content: start;
+    margin: 0px 0px 0px 16px;
+    gap: 10px;
+}
+
+.chat p {
+    background-color:rgba(128, 128, 128, 0.342);
+    border-radius: 40px;
+    padding: 6px;
+}
+
+.ct{
+    display: flex;
 }
